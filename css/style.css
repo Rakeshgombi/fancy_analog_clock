@@ -5,9 +5,6 @@
 }
 
 body {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   width: 100%;
   height: 100vh;
   background-color: #ffff00;
@@ -20,16 +17,15 @@ body {
   border-radius: 50%;
   transform: translate(-50%, -50%);
   background-color: #ffff00;
-  /* background: url("../images/grad.png") no-repeat center center/cover; */
   max-width: 500px;
   margin: auto;
   height: 500px;
   width: 500px;
-  /* border: 2px solid black; */
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0px 0px 20px 7px #000;
+  z-index: -1;
 }
 
 .center {
@@ -198,7 +194,6 @@ span {
   ul {
     margin: 2px auto;
     display: inline-block;
-    /* background-color: gray; */
     list-style-type: none;
   }
 
